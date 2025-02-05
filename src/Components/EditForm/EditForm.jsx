@@ -12,7 +12,7 @@ function EditForm(props) {
         date: "",
     });
 
-    const API_URL = "http://localhost:3005/api/admin/getProjectByUser";
+    const API_URL = "https://task-manager-mernstack.onrender.com/api/admin/getProjectByUser";
 
     // function to fetch edit data
     const EditFormView = async () => {
@@ -65,7 +65,7 @@ function EditForm(props) {
 
         try {
             const response = await axios.post(
-                "http://localhost:3005/api/admin/updateUserTask",
+                "https://task-manager-mernstack.onrender.com/api/admin/updateUserTask",
                 { id, ...project },
                 {
                     headers: { "Content-Type": "application/json" },
