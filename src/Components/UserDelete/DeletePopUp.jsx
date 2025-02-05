@@ -4,7 +4,7 @@ import axios from "axios";
 import swal from "sweetalert";
 
 function DeletePopUp(props) {
-    const API_URL = "http://localhost:3004/api/user";
+    const API_URL = "https://task-manager-mernstack.onrender.com/api/user";
     const { SetPopup, id, getAllUsers } = props;
     
 
