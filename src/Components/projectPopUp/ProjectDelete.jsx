@@ -6,7 +6,7 @@ import Swal from "sweetalert2";
 function ProjectDelete(props) {
     const { setOpen, id, getAllProject } = props;
 
-    const API_URL = "http://localhost:3005/api/admin/deleteTask";
+    const API_URL = "https://task-manager-mernstack.onrender.com/api/admin/deleteTask";
 
     const DeleteProject = async () => {
         console.log("Delete_id", id);
