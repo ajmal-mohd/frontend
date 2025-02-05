@@ -27,7 +27,7 @@ function Admin() {
     const getAllProject = async () => {
         try {
             setLoad(true);
-            const response = await axios.get("http://localhost:3005/api/admin/getUsersproject");
+            const response = await axios.get("https://task-manager-mernstack.onrender.com/api/admin/getUsersproject");
             const data = await response.data;
             setProject(data);
             setLoad(false);
