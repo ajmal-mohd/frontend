@@ -10,7 +10,7 @@ function ProjectTable(props) {
     const [openEdit, setEditOpen] = useState(false);
     const [id, setId] = useState("string");
     const [editId, setEditId] = useState("string");
-    const API_URL = "http://localhost:3005/api/admin/deleteTask";
+    const API_URL = "https://task-manager-mernstack.onrender.com/api/admin/deleteTask";
 
     const opendeleteModal = (id) => {
         setId(id);
