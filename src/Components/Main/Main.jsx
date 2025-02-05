@@ -14,7 +14,7 @@ import ProtectedRoute from "../Protected/Protect";
 
 function Main() {
     const location = useLocation();
-    const API_URL = "http://localhost:3005";
+    const API_URL = "https://task-manager-mernstack.onrender.com";
     const navigate = useNavigate();
 
     const dispatch = useDispatch();
