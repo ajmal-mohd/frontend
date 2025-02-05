@@ -1,0 +1,44 @@
+table {
+    width: 98%;
+    // border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    text-align: left;
+    color: #525150;
+
+    // border: 1px solid #ddd;
+}
+.info{
+    font-size: 30px;
+    line-height: 27px;
+    font-weight: 500;
+    padding-left: 3px;
+}
+th {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    color: #525150;
+}
+
+.user-delete {
+    color: white;
+    background-color: red;
+    width: 62px;
+    height: 41px;
+    border-radius: 7px;
+    font-size: 12px;
+    padding: 5px;
+    i {
+        color: white;
+        font-size: 12px;
+    }
+
+    &:hover{
+        cursor: pointer;
+    }
+}
+tbody {
+}
