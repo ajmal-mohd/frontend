@@ -10,7 +10,7 @@ function SignUp() {
     const navigate = useNavigate(); // Initialize useNavigate hook
     const dispatch = useDispatch(); // Initialize redux di
     // const [load, setload] = useState(false);
-    const API_URL = "http://localhost:3005";
+    const API_URL = "https://task-manager-mernstack.onrender.com";
 
     const [input, setInput] = useState({
         name: "",
